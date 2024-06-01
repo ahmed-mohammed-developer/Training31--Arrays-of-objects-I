@@ -189,3 +189,20 @@ const name = users3 => {
 
 console.log(name(users3));
 
+
+function get_duplicate_elements(arr) {
+    // write your code here
+    return arr.filter(function(x){
+      return x === x;
+        });
+}
+console.log(get_duplicate_elements([10,5,9,5]));
+
+function numbers_range(number) {
+  // write your code here
+    for(let i = 0; i <= number; i++){
+      console.log(i);
+    }
+}
+console.log(numbers_range(9));
+
